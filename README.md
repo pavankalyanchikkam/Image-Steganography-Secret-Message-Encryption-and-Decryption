@@ -3,8 +3,8 @@
 This project demonstrates a simple image-based steganography technique using Python and OpenCV. It was developed during the AICTE-IBM internship and showcases a basic method for embedding a secret message within an image file and retrieving it later using a passcode.
 
 ## Table of Contents
-- [Overview](#overview)
-- [Project Structure](#project-structure)
+- [Overview](## overview 🚀)
+- [Project Structure](## project structure 📁)
 
 ---
 
