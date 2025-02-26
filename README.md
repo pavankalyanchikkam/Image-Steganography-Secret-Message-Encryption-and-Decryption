@@ -20,9 +20,9 @@ This project demonstrates a simple image-based steganography technique using Pyt
 ## Project Structure 📁
 
 .
-├── encryption.py        🔐 Contains the logic for embedding secret messages into images.
-├── decryption.py        🔍 Handles the extraction of hidden messages from images.
-├── gui.py               🖥️ Provides a graphical user interface using Tkinter.
-├── mypic.png            🖼️ Example cover image (recommended: use a lossless format like PNG).
-├── metadata.txt         📝 Auto-generated file storing message length and passcode.
-└── encryptedImage.png   📷 Output image with the embedded secret message.
+├── encryption.py        🔐 
+├── decryption.py        🔍 
+├── gui.py               🖥️ 
+├── mypic.png            🖼️ 
+├── metadata.txt         📝 
+└── encryptedImage.png   📷 
