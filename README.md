@@ -18,3 +18,4 @@ This project consists of two separate Python scripts:
 2. **decryption.py**: Reads the encrypted image and the metadata file, then retrieves and prints the secret message if the correct passcode is provided.
 
 ## Project Structure
+ ├── encryption.py ├── decryption.py ├── mypic.jpg # Original image file used for encryption (must be provided) ├── metadata.txt # Generated metadata file (contains message length and passcode) └── encryptedImage.png # Generated encrypted image file
