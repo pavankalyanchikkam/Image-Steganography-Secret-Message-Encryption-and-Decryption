@@ -5,12 +5,6 @@ This project demonstrates a simple image-based steganography technique using Pyt
 ## Table of Contents
 - [Overview](#overview)
 - [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Notes](#notes)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Overview
 This project consists of two separate Python scripts:
@@ -23,10 +17,3 @@ This project consists of two separate Python scripts:
  ├── mypic.jpg # Original image file used for encryption (must be provided) 
  ├── metadata.txt # Generated metadata file (contains message length and passcode) 
  └── encryptedImage.png # Generated encrypted image file
-
-## Prerequisites
-- Python 3.x
-- [OpenCV](https://opencv.org/)  
-  Install via pip:
-  ```bash
-  pip install opencv-python
