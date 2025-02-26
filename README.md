@@ -6,14 +6,23 @@ This project demonstrates a simple image-based steganography technique using Pyt
 - [Overview](#overview)
 - [Project Structure](#project-structure)
 
-## Overview
-This project consists of two separate Python scripts:
-1. **encryption.py**: Reads an input image, embeds a secret message into the image pixel values, and saves the modified image in PNG format. It also creates a metadata file that stores the length of the secret message and a passcode.
-2. **decryption.py**: Reads the encrypted image and the metadata file, then retrieves and prints the secret message if the correct passcode is provided.
+## Overview 🚀
 
-## Project Structure
- ├── encryption.py 
- ├── decryption.py 
- ├── mypic.jpg # Original image file used for encryption (must be provided) 
- ├── metadata.txt # Generated metadata file (contains message length and passcode) 
- └── encryptedImage.png # Generated encrypted image file
+- **Purpose**:  
+  Develop a robust and user-friendly tool for embedding and extracting secret messages within images using Python, OpenCV, and Tkinter. This project was created during the AICTE-IBM internship to showcase practical steganography techniques.
+
+- **Key Features**:  
+  - 🔒 **Secure Messaging**: Hides sensitive data within lossless PNG images to maintain data integrity.  
+  - ⚙️ **Modular Architecture**: Clean separation of encryption, decryption, and GUI components for easy maintenance and scalability.  
+  - 🖥️ **Intuitive GUI**: User-friendly interface built with Tkinter simplifies the process of encrypting and decrypting messages.  
+  - 🔄 **Extensibility**: Structured design that facilitates future enhancements, such as advanced cryptographic methods and support for additional media formats.
+
+## Project Structure 📁
+
+.
+├── encryption.py        🔐 Contains the logic for embedding secret messages into images.
+├── decryption.py        🔍 Handles the extraction of hidden messages from images.
+├── gui.py               🖥️ Provides a graphical user interface using Tkinter.
+├── mypic.png            🖼️ Example cover image (recommended: use a lossless format like PNG).
+├── metadata.txt         📝 Auto-generated file storing message length and passcode.
+└── encryptedImage.png   📷 Output image with the embedded secret message.
