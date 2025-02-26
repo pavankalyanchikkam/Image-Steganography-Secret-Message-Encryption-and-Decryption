@@ -6,6 +6,8 @@ This project demonstrates a simple image-based steganography technique using Pyt
 - [Overview](#overview)
 - [Project Structure](#project-structure)
 
+---
+
 ## Overview 🚀
 
 - **Purpose**:  
@@ -16,6 +18,8 @@ This project demonstrates a simple image-based steganography technique using Pyt
   - ⚙️ **Modular Architecture**: Clean separation of encryption, decryption, and GUI components for easy maintenance and scalability.  
   - 🖥️ **Intuitive GUI**: User-friendly interface built with Tkinter simplifies the process of encrypting and decrypting messages.  
   - 🔄 **Extensibility**: Structured design that facilitates future enhancements, such as advanced cryptographic methods and support for additional media formats.
+
+---
 
 ## Project Structure 📁
 
