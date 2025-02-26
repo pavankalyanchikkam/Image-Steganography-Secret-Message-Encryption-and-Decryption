@@ -19,9 +19,14 @@ This project demonstrates a simple image-based steganography technique using Pyt
 
 ## Project Structure 📁
 
-├── encryption.py        🔐 
+├── encryption.py        🔐
+
 ├── decryption.py        🔍 
+
 ├── gui.py               🖥️ 
-├── mypic.png            🖼️ 
+
+├── mypic.png            🖼️
+
 ├── metadata.txt         📝
+
 └── encryptedImage.png   📷 
